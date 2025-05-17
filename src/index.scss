@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100vh;
+
+  font-size: 14px;
+  white-space: pre-line;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body, button, p, h1, h2, h3, h4, h5, h6, input {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+  background: none;
+  border: none;
+  user-select: none;
+  font-size: unset;
+  font-family: unset !important;
+  -webkit-tap-highlight-color: transparent;
+
+  &:disabled {
+    cursor: default;
+  }
+}

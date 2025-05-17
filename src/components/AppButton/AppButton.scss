@@ -1,0 +1,10 @@
+.app-button {
+  padding: 8px;
+  border: 1px solid #B9B9B9;
+  border-radius: 1px;
+  background: linear-gradient(to bottom, white, #F0F0F0);
+
+  &:hover, &:disabled {
+    background: linear-gradient(to bottom, white, #f0f0f050);
+  }
+}
